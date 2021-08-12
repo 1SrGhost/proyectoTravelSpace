@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>REGISTRO</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7; IE=EmulateIE9">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
+     <link rel="stylesheet" type="text/css" href="css/demo.css" media="all" />
+</head>
+<body>
+<div class="container">
+	
+            <div class="freshdesignweb-top">
+                <a href="***************************" target="_blank">inicio</a>
+              
+                <div class="clr"></div>
+            </div><!--/ freshdesignweb top bar -->
+			<header>
+				<h1> Registro</h1>
+            </header>       
+      <div  class="form">
+    		<form id="contactform"> 
+    			<p class="contact"><label for="name">Nombre</label></p> 
+    			<input id="nombre" name="nombre" placeholder="primero y segundo nombre" required="" tabindex="1" type="text"> 
+    			 
+    			<p class="contact"><label for="email">Correo</label></p> 
+    			<input id="email" name="email" placeholder="ejemplo@usco.edu.co" required="" type="email"> 
+                
+                <p class="contact"><label for="username">Crea un codigo de usuario</label></p> 
+    			<input id="username" name="username" placeholder="codgio de usuario" required="" tabindex="2" type="text"> 
+    			 
+                <p class="contact"><label for="password">Crea una contraseña</label></p> 
+    			<input type="password" id="password" name="password" required=""> 
+                <p class="contact"><label for="repassword">Confirme su contraseña</label></p> 
+    			<input type="password" id="repassword" name="repassword" required=""> 
+        
+               <fieldset>
+                 <label>fecha de nacimiento</label>
+                  <label class="month"> 
+                  <select class="select-style" name="BirthMonth">
+                  <option value="">Mes</option>
+                  <option  value="01">Enero</option>
+                  <option value="02">Febrero</option>
+                  <option value="03" >Marzo</option>
+                  <option value="04">Abri</option>
+                  <option value="05">Mayo</option>
+                  <option value="06">Junio</option>
+                  <option value="07">Julio</option>
+                  <option value="08">Agosto</option>
+                  <option value="09">Septiembre</option>
+                  <option value="10">Octubre</option>
+                  <option value="11">Noviembre</option>
+                  <option value="12" >Diciembre</option>
+                  </label>
+                 </select>    
+                <label>Dia<input class="birthday" maxlength="2" name="BirthDay"  placeholder="Dia" required=""></label>
+                <label>Mes <input class="birthyear" maxlength="4" name="BirthYear" placeholder="Año" required=""></label>
+              </fieldset>
+  
+            <select class="select-style gender" name="gender">
+            <option value="select">cual es tu genero?</option>
+            <option value="m">Masculino</option>
+            <option value="f">Femenino</option>
+            <option value="others">Otro</option>
+            </select><br><br>
+            
+            <p class="contact"><label for="phone">Numero de Telefono Celular</label></p> 
+            <input id="phone" name="phone" placeholder="numero telefonico" required="" type="text"> <br>
+            <input class="buttom" name="submit" id="submit" tabindex="5" value="Registrar" type="submit"> 	 
+   </form> 
+</div>      
+</div>
+
+</body>
+</html>

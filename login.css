@@ -1,0 +1,51 @@
+
+body {
+	margin: 0 auto;
+	background-image:  url("img/lgon.png")
+
+}
+.jumbotron{
+	
+}
+.boxlogin{
+	width: 500px;
+	height: 400px;
+	text-align: center;
+	
+	background-color: rgba(52,73,94,0.7);
+
+	border-radius: 4px;
+	margin: 0 auto;
+	margin-top: 150px;
+
+}
+.img-circle{
+border: 2px solid grey;
+margin: 0;
+padding: 0;
+overflow: hidden;
+}
+
+.container img{
+	width: 120px;
+	height: 120px;
+	margin-top: -60px;
+	margin-bottom: 30px;
+}
+
+.titulo {
+	margin-top: 13px;
+}
+html{
+	 margin: 0px;
+	 padding: 0px;
+
+}
+
+
+input[type="submit"]{
+	margin-top: 14px;
+}
+form{
+	color: white;
+}
